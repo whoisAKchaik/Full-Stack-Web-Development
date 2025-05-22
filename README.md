@@ -63,7 +63,7 @@ This project is a web-based system where users can manage reviews and surveys. T
 
 Authenticated users can view the list of surveys on the main page and all users can view a list of reviews on the review page.
 
-![alt text](image.png)
+![alt text](public/images/image.png)
 
 ![alt text](image-1.png)
 
@@ -74,9 +74,9 @@ Authenticated users can view the list of surveys on the main page and all users 
 2. Fill in the necessary details.
 3. Click the "Confirm" button.
 
-![alt text](image-2.png)
+![alt text](public/images/image-2.png)
 
-![alt text](image-3.png)
+![alt text](public/images/image-3.png)
 
 
 ### Editing a Review or Survey
@@ -86,9 +86,9 @@ Authenticated users can view the list of surveys on the main page and all users 
 3. Click the "Confirm" button.
 4. Only the owner of the particular reviews or survey questions can do edition.
 
-![alt text](image-4.png)
+![alt text](public/images/image-4.png)
 
-![alt text](image-5.png)
+![alt text](public/images/image-5.png)
 
 
 ### Deleting a Review or Survey
@@ -97,9 +97,9 @@ Authenticated users can view the list of surveys on the main page and all users 
 2. Confirm the deletion in the modal by clicking the "Confirm" button.
 3. Only the owner of the particular reviews or survey questions can do deletion.
 
-![alt text](image-6.png)
+![alt text](public/images/image-6.png)
 
-![alt text](image-7.png)
+![alt text](public/images/image-7.png)
 
 ### Authentication
 
@@ -110,9 +110,9 @@ Authenticated users can view the list of surveys on the main page and all users 
 
 Authenticated users can view the user's profile and eco-cadet's account if exits, on the profile page.
 
-![alt text](image-8.png)
+![alt text](public/images/image-8.png)
 
-![alt text](image-9.png)
+![alt text](public/images/image-9.png)
 
 ### Creating an eco-cadet profile
 
@@ -120,7 +120,7 @@ Authenticated users can view the user's profile and eco-cadet's account if exits
 2. Fill in the necessary details.
 3. Click the "Confirm" button.
 
-![alt text](image-10.png)
+![alt text](public/images/image-10.png)
 
 ### Editing an eco-cadet profile
 
@@ -128,7 +128,7 @@ Authenticated users can view the user's profile and eco-cadet's account if exits
 2. Fill in the necessary details.
 3. Click the "Confirm" button.
 
-![alt text](image-11.png)
+![alt text](public/images/image-11.png)
 
 ## API Endpoints
 
