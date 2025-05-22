@@ -62,10 +62,10 @@ This project is a web-based system where users can manage reviews and surveys. T
 ### Viewing Reviews and Surveys
 
 Authenticated users can view the list of surveys on the main page and all users can view a list of reviews on the review page.
-<img width="952" alt="image" src="https://github.com/user-attachments/assets/3511dbc9-844f-4cfb-b70e-ad337e8b8328">
 
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/f7aed870-2b1a-436a-8361-12e58035e4f1">
+![alt text](image.png)
 
+![alt text](image-1.png)
 
 
 ### Creating a Review or Survey
@@ -73,9 +73,10 @@ Authenticated users can view the list of surveys on the main page and all users 
 1. Click the "Post Review" or "Post Questions" button.
 2. Fill in the necessary details.
 3. Click the "Confirm" button.
-<img width="957" alt="image" src="https://github.com/user-attachments/assets/6223a9d8-f46b-40bd-915c-ef95629854c7">
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/449cc7c0-29f4-4510-aef6-2767a05b9224">
 
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 
 ### Editing a Review or Survey
@@ -84,9 +85,10 @@ Authenticated users can view the list of surveys on the main page and all users 
 2. Update the details in the modal.
 3. Click the "Confirm" button.
 4. Only the owner of the particular reviews or survey questions can do edition.
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/5067c7ea-342b-4dbf-b136-88ee7719f567">
-<img width="936" alt="image" src="https://github.com/user-attachments/assets/ca8c6a3e-7168-48d9-af13-af2ddbe935e1">
 
+![alt text](image-4.png)
+
+![alt text](image-5.png)
 
 
 ### Deleting a Review or Survey
@@ -94,9 +96,10 @@ Authenticated users can view the list of surveys on the main page and all users 
 1. Click the trash icon next to the review or survey you want to delete.
 2. Confirm the deletion in the modal by clicking the "Confirm" button.
 3. Only the owner of the particular reviews or survey questions can do deletion.
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/f8dd3533-0602-4430-96ee-44146c2d37ed">
-<img width="953" alt="image" src="https://github.com/user-attachments/assets/b3a03cbf-72df-4089-b872-6a28b18e1ab3">
 
+![alt text](image-6.png)
+
+![alt text](image-7.png)
 
 ### Authentication
 
@@ -106,24 +109,26 @@ Authenticated users can view the list of surveys on the main page and all users 
 ### Viewing User's profile
 
 Authenticated users can view the user's profile and eco-cadet's account if exits, on the profile page.
-<img width="946" alt="image" src="https://github.com/user-attachments/assets/1d4707e0-0269-4417-8544-cc807d6400df">
-<img width="934" alt="image" src="https://github.com/user-attachments/assets/b32a82e7-b149-412e-89b8-d5ff891f582c">
 
+![alt text](image-8.png)
+
+![alt text](image-9.png)
 
 ### Creating an eco-cadet profile
 
 1. Click the "Go" button next to "Be the Game Changer Today".
 2. Fill in the necessary details.
 3. Click the "Confirm" button.
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/4d30d0aa-d192-4156-b900-9795363a17b6">
 
+![alt text](image-10.png)
 
 ### Editing an eco-cadet profile
 
 1. Click the the pencil icon next to the eco-cadet's name.
 2. Fill in the necessary details.
 3. Click the "Confirm" button.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/db326e02-0219-4a63-b40b-4f11d05b6166">
+
+![alt text](image-11.png)
 
 ## API Endpoints
 
