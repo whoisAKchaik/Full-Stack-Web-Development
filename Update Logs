@@ -1,0 +1,23 @@
+Eco-cadets_v1.1
+ - Implemented middlewares for checking eco-cadets ownership and inventories ownership
+ - Advanced growing and watering functions and fixed bugs
+
+Eco-cadets_v1.2
+ - Implemented users register/login endpoints 
+
+Eco-cadets_v1.3
+ - Implemented frontend for users register/login, user's profile.
+    - User's profile functions
+        - Retrieve user's details
+        - Update username
+        - Retrieve user's eco-cadet details
+        - Retrieve eco-cadet's inventories
+
+Eco-cadets_v1.4
+ - Implemented frondend for survey questions. Authorized users can now view/answer survey questions and view answers for the particular questions.
+
+Eco-cadets_v1.5
+ - Authorized users can now create/edit/delete survey questions.
+
+Eco-cadets_v1.6
+ -  - Authorized users can now create/edit/delete REVIEWS.

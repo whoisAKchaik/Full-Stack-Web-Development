@@ -1,0 +1,162 @@
+body{
+    background-image: linear-gradient(45deg, #7175da, #9790F2);
+}
+
+main {
+    min-height: calc(100vh - 56px - 56px);
+}
+/* NAVIGATION */
+nav {
+width: 100%;
+margin: 0 auto;
+}
+nav ul {
+list-style: none;
+text-align: center;
+}
+/* nav ul li {
+display: inline;
+} */
+nav.navbar ul li a {
+display: inline-block;
+padding: 10px;
+text-decoration: none;
+color: #fff;
+font-weight: 800;
+text-transform: uppercase;
+margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+transition: all .5s;
+}
+nav ul li a:hover {
+color: #fff;
+}
+
+/* SHIFT */
+nav.navbar ul li a {
+position:relative;
+z-index: 1;
+}
+nav.navbar ul li a:hover {
+color: #000;
+}
+nav.navbar ul li a:after {
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+width: 100%;
+height: 1px;
+border-radius: 0.375rem;
+content: '.';
+color: transparent;
+background: #fff;
+visibility: none;
+opacity: 0;
+z-index: -1;
+}
+nav.navbar ul li a:hover:after {
+opacity: 1;
+visibility: visible;
+height: 100%;
+}
+
+/* Custom styles for dropdown menu */
+.dropdown-menu {
+    width: fit-content;
+}
+   
+.dropdown-item{
+    width: auto;
+}
+
+/* Custom styles for dropdown menu alignment */
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%; /* Position below the toggle button */
+}
+
+/* Hide dropdown menu by default */
+.dropdown-menu {
+    display: none;
+}
+
+/* Hide elements initially */
+.d-none {
+display: none !important;
+}
+
+ul.navbar-nav ul li a {
+    color: #000;
+}
+
+ul.navbar-nav ul li a:hover {
+    color: #7175da;  
+
+}
+
+.custom-borderRadius{
+    border-radius: 20px;
+
+}
+
+/* survey questions */
+#pointer {
+    cursor: pointer;
+}
+
+.profileSize {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+.card {
+    --bs-card-spacer-y: 0.5rem;
+}
+
+.size {
+    font-size: 0.6rem; /* Adjust the value as needed */
+}
+
+.responses-container {
+    max-height: 0;
+    overflow-y: scroll;
+    transition: max-height 0.2s ease-in-out, padding 0.5s ease-in-out;
+    opacity: 0;
+    padding: 0;
+}
+
+.responses-container.expanded {
+    max-height: 300px; /* Adjust this value based on the expected content height */
+    opacity: 1;
+    padding: 1rem;
+}
+
+.responses-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* edit form */
+
+.warningStyle {
+    color: red; 
+    font-size: small;
+    font-weight: 700;
+}
+
+.editIcon {
+    color: #9790F2;
+    font-size: large;
+}
